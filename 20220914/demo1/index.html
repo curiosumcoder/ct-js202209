@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        console.log('JS head');
+
+        // Declaración de variable
+        /* Declaración de variable */
+        // typeof b // Obtiene el tipo de la variable
+        var a = 1;
+        let b = 2;
+        const c = 3;
+        //c = 4;
+        let d = 2.1;
+
+        let nombre = 'Gilberto';
+        let apellido = "Bermúdez";
+        const nombreCompleto = nombre + ' ' + apellido;
+        console.log(nombreCompleto);
+
+        const nombreCompleto2 = `${nombre} ${apellido} 😊`;
+        console.log(nombreCompleto2);
+
+        let b1 = true;        
+        let b2 = false;
+
+        console.log(b1 == b2);
+
+        let id = 100; // undefined, null, 0
+        if (id)
+        {
+            console.log(`El identificador existe! ${id}`);
+        }
+
+        let ar1 = ['San José','Cartago',200];
+        console.log(ar1);
+
+        for (const v of ar1) {
+            console.log(v);
+        }
+
+        for (let i = 0; i < ar1.length; i++) {
+            console.log(ar1[i]);
+        }
+        
+        ar1.forEach(v => {
+            console.log(v);
+        });
+
+        console.clear();
+
+        // Igualdad
+        const f = 1;
+        const g = '1';
+        console.log(f === g); // !==
+
+        console.clear();
+        let h = null;
+        console.log(undefined && h);
+
+        console.log('a' || h);
+        // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator
+        console.log(null ?? h); 
+    </script>
+</head>
+<body>
+    <h1>Product</h1>   
+
+    <script>
+        console.log('JS footer');
+    </script>
+</body>
+</html>
