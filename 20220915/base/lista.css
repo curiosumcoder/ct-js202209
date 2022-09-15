@@ -1,0 +1,24 @@
+ul {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+    padding-left: 0;
+}
+
+ul > li {
+    padding: 1em;
+    border-top: 1px solid gray;
+}
+
+ul > li:nth-child(odd) {
+    background-color: rgb(234, 243, 180);
+}
+
+span.email {
+    font-weight: bold;
+    font-style: italic;
+}
+
+span.nombre {
+    font-size: 1.5em;
+}
+
