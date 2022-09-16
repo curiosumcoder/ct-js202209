@@ -20,8 +20,3 @@ Material relacionado con el curso de Programación JavaScript impartido para UCe
  <br>live-server es un pequeño servidor de HTTP, útil para pruebas locales. Es una aplicación escrita en nodejs.
  <br>Se instala ejecutando desde la línea de comandos: npm i live-server -g
  <br/>Se puede comprobar la versión instalada por medio de la línea de comandos con: live-server --version.
- 
- * Git
- <br/>https://git-scm.com/downloads.
- <br/>Instalar la última versión.
- <br/>Se puede comprobar la versión por medio de la línea de comandos con: git --version.
