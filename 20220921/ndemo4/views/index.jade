@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  script 'alert("OK")'
+  form(action="/", method="get")
+    input(type='text', name='filter', placeholder='Type here ...',value=filter)
+  ul
+    each c in customers
+      li=`${c.id}, ${c.companyName}, ${c.contactName}`
