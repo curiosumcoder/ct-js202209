@@ -2468,6 +2468,11 @@
       "productName": "Demostración",
       "unitPrice": "100",
       "id": 78
+    },
+    {
+      "productName": "Tomates de Cartago",
+      "unitPrice": "500",
+      "id": 79
     }
   ]
 }

@@ -36,8 +36,8 @@ export default class ProductService {
     }
   }
 
-  async edit(data) {
-    let putResponse = await fetch(`${PRODUCT_URL}`, {
+  async edit(id, data) {
+    let putResponse = await fetch(`${PRODUCT_URL}/${id}`, {
       method: "put",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(data),
